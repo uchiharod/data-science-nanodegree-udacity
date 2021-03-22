@@ -1,0 +1,19 @@
+WITH t1 AS (
+SELECT f.title film_title, c.name category_name, COUNT(r.rental_id) rental_count
+FROM category c
+JOIN film_category fc 
+ON c.category_id = fc.category_id 
+JOIN film f 
+ON fc.film_id = f.film_id 
+JOIN inventory i 
+ON f.film_id = i.film_id 
+JOIN rental r  
+ON i.inventory_id = r.inventory_id 
+WHERE c.name IN ('Comedy', 'Family', 'Music', 'Animation', 'Children', 'Classics') 
+GROUP BY 1, 2 
+ORDER BY 2, 1)
+
+SELECT t1.category_name, SUM(t1.rental_count) as total_rental_count
+FROM t1
+GROUP BY 1
+ORDER BY 1;
