@@ -1,8 +1,8 @@
 # data-science-nanodegree-udacity
-This repo contains projects for Udacity Data Scientist Nanodegree. In this project, I have used SQL to explore a database related to movie rentals. I ran SQL queries and 
-proposed some interesting questions about the database. The visualizations shows the output of the queries when I transfered the query results to excel. 
+<p>This repo contains projects for Udacity Data Scientist Nanodegree. In this project, I have used SQL to explore a database related to movie rentals. I ran SQL queries and 
+proposed some interesting questions about the database. The visualizations shows the output of the queries when I transfered the query results to excel.</p> 
 
-The project presentation has 4 slides, each shows:
+<p>The project presentation has 4 slides, each shows:</p>
 
 <ul>
 <li>A question of interest.</li>
