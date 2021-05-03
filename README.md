@@ -21,7 +21,6 @@ proposed some interesting questions about the database. The visualizations shows
 <li>Has a supporting visualization created using the final data of the SQL query that answers the question of interest.</li>
 </ul>
 
-Files used
-brand_name_generator.py
+
 
 
