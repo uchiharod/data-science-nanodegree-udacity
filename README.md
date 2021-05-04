@@ -1,12 +1,12 @@
 # data-science-nanodegree-udacity
 
-Date created
+Date created:
 This README was created on April 2021.
 
-Project Title
+Project Title:
 Data Scientist Nanodegree
 
-Objective
+Objective:
 To build upon my existing python skills and to build my github portfolio
 
 
