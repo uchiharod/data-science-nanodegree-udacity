@@ -4,7 +4,7 @@ Date created:
 This README was created on April 2021.
 
 Project Title:
-Data Scientist Nanodegree
+Data Scientist and Python Nanodegree
 
 Objective:
 To build upon my existing python skills and to build my github portfolio
